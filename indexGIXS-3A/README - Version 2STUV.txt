@@ -1,3 +1,8 @@
+Download the indexGIXS folder to your computer
+Open indexGIXS-2V.sce in the Scilab editor and execute
+Happy indexing!
+
+Recent updates of prevous versions all contained in current version 3A
 Versions 2S and 2T
 
 Version 2S introduces a menu for indexing in reciprocal space. This option is set with  the index_rule pushbutton; the menu let's you choose whether to stay in real space ("real) transform to reciprocal space ("rec"). The latter can only be done for the surface unit cell which is equivalent to (HKL)=(001). The advantage of this option is that it splits the problem of finding 6 lattice parameters at once into 3+3 parameters of the parallel and vertical compoments. For more explanation refer to my recent papers:
@@ -25,5 +30,6 @@ Some detailed strategies to find an indexation for the surface unit cell of 2D p
 Version 2U is transitional and will remain unpublished. It modernizes access to the pull-down menus (detector, index rule). This will make it much easier to add detectors or specific spacegroups, and will make the code more readable.
 
 Version 2V adds vectorization to the spot calculation and space group checking. 2V is available in the dropbox distribution for beta testing. This version will be the base for Version IndexGIXS 3.0, which is planned to be the first version to be published on GitHub.
+
 
 
