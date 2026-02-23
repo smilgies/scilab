@@ -14,6 +14,6 @@ If you use indexGIXS for your research, please cite these papers.
 
 IndexGIXS is based on the free Scilab software which is open source and can be downloaded at Scilab.org. IndexGIXS version 3A 
 features a major clean-up and improvement to the code. The version is compatible with the current Scilab distribution 
-scilab-2026.0.1 on Windows 10 and 11 home editions. There is an issue with the new Scilab graphics engine in the 
+scilab-2026.0.1 on Windows 10 and Windows 11 Home editions. There is an issue with the new Scilab graphics engine in the 
 Windows 11 Enterprise edition - I recommend rolling back to the earlier Scilab version scilab-2023.1.0 which is still 
-available at scilab.org as legacy code and compatible, albeit with slower graphics. 
+available at scilab.org as legacy code and compatible with Windows 11 Enterprise, albeit with slower graphics. 
