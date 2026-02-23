@@ -1,10 +1,11 @@
 /////////////////////
-//  indexGIXS 2.0  //
+//  indexGIXS 3.0  //
 /////////////////////
 
 //
-// Version 2V  -  Jan 2026
-//                for scilab-2026.0.1
+// Version 3A  -  Feb 2026
+//                for scilab-2026.0.1 under Windows 10 and 11 Home edition
+//                for scilab-2023.1.0 under Windows 11 Enterprise
 //
 // Author:   Detlef Smilgies
 //
@@ -109,3 +110,4 @@ else
 end
 
 //   end of main   //
+
