@@ -25,6 +25,7 @@ screenV=screen(4);
 version=getversion();
 yr=evstr(part(version,8:11));
 
+
 ///////////////////////////////////////
 // main
 
@@ -37,11 +38,6 @@ LOCAL=pwd();
 // prepare initial data path
 path=LOCAL;
 mputl(path,TMPDIR+"\path.par");
-
-////////////////////////////////////////
-// version
-// version="indexGIXS 2V";
-// authors="(c) Detlef Smilgies  2021-2026";
 
 // LIBRARIES
 
@@ -110,4 +106,5 @@ else
 end
 
 //   end of main   //
+
 
