@@ -10,7 +10,8 @@ In case your interested: the example shows a rhombohedral structure found for a 
 
 
 
-Recent updates of previous versions that are all contained in current version 3A
+Recent updates in previous versions of indexGIXS that are all contained in current version 3A
+
 Previous versions were distributed via www.dropbox.com and will remain available.
 
 Versions 2S and 2T
@@ -35,5 +36,6 @@ Versions 2U and 2V
 
 in versions 2U and up a modernization of the code is implemented. Version 2U is transitional and will remain unpublished. It modernizes access to the pull-down menus (detector, index rule). This will make it much easier to add detectors or specific spacegroups in future versions, and will make the code more readable.
 
-Version 2V adds vectorization to the spot calculation and space group checking. 2V is available in the dropbox distribution for beta testing. This version will be the base for Version IndexGIXS 3.0, which is planned to be the first version to be published on GitHub.
+Version 2V adds vectorization to the spot calculation and space group checking. 2V is available in the dropbox distribution for beta testing. This version will be the base for Version IndexGIXS 3.0, which is to be the first version to be published on GitHub.
 
+The code was further cleaned up for Version 3A, in particular graphics related code. In addition the functions in GIXlib are now precompiled as a library. Version 3A is compatible with Scilab-2026-0.n (n=0,1) and Scilab-2023.1.0.
