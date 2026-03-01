@@ -4,6 +4,7 @@ How to get started:
 - Open indexGIXS-3A.sce in the Scilab editor and execute via F5
 - Choose the medoptics detector in the detector pulldown menu
 - Load the image file; parameters are already preset; try the calc and the index buttons
+  
 Happy indexing!
 
 In case your interested: the example shows a rhombohedral structure found for a superlattice formed by PbSe nanocubes. (See J.J. Choi et al., Nano Lett. 12, 4791–4798 (2012). https://doi.org/10.1021/nl3026289)
