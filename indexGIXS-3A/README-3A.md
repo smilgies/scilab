@@ -10,7 +10,7 @@ In case your interested: the example shows a rhombohedral structure found for a 
 
 
 
-Recent updates of previous versions all contained in current version 3A
+Recent updates of previous versions that are all contained in current version 3A
 Previous versions were distributed via www.dropbox.com and will remain available.
 
 Versions 2S and 2T
