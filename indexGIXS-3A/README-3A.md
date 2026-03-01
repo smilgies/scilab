@@ -8,6 +8,8 @@ Happy indexing!
 
 In case your interested: the example shows a rhombohedral structure found for a superlattice formed by PbSe nanocubes. (See J.J. Choi et al., Nano Lett. 12, 4791–4798 (2012). https://doi.org/10.1021/nl3026289)
 
+
+
 Recent updates of previous versions all contained in current version 3A
 Previous versions were distributed via www.dropbox.com and will remain available.
 
