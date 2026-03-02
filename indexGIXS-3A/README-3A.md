@@ -9,7 +9,7 @@ Happy indexing!
 
 In case your interested: the example shows a rhombohedral structure found for a superlattice formed by PbSe nanocubes. (See J.J. Choi et al., Nano Lett. 12, 4791–4798 (2012). https://doi.org/10.1021/nl3026289)
 
-
+=============================================================================================
 
 Recent updates in previous versions of indexGIXS that are all contained in current version 3A
 
@@ -39,4 +39,5 @@ in versions 2U and up a modernization of the code is implemented. Version 2U is 
 
 Version 2V adds vectorization to the spot calculation and space group checking. 2V is available in the dropbox distribution for beta testing. This version will be the base for Version IndexGIXS 3.0, which is to be the first version to be published on GitHub.
 
-The code was further cleaned up for Version 3A, in particular graphics related code. In addition the functions in GIXlib are now precompiled as a library. Version 3A is compatible with Scilab-2026-0.n (n=0,1) and Scilab-2023.1.0.
+
+The code was further cleaned up for Version 3A, in particular graphics related code. In addition the functions in GIXlib are now precompiled as a library. Version 3A is compatible with Scilab-2026-0.n (n=0,1) and Scilab-2023.1.0. If an error message with regard to library functions occurs, please recompile the libraries using the generate_dlib-3A and generate_GIXSlib-3A scripts.
