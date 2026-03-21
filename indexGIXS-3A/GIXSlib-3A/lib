@@ -20,6 +20,7 @@
   <macro name="read_Mat" file="read_Mat.bin" md5="1ebeba964ab3c839063518c01ec2ac21"/>
   <macro name="read_edf_header" file="read_edf_header.bin" md5="6d5e8e5645cb884984582fa58e2425d2"/>
   <macro name="read_image" file="read_image.bin" md5="41a6d7f99623db3d7b5301d1ecd7c566"/>
+  <macro name="real_lattice" file="real_lattice.bin" md5="570993516bd1bc40b518c79c95b033de"/>
   <macro name="reciprocal_lattice" file="reciprocal_lattice.bin" md5="1668fd604feada89bafbe4571808c3cc"/>
   <macro name="select_spot" file="select_spot.bin" md5="e0130d760752abaf0cab98ea958bd86f"/>
   <macro name="set_det" file="set_det.bin" md5="efe3099b5092262f7670e005a835b388"/>
