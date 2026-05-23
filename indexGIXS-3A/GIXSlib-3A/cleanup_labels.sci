@@ -5,7 +5,7 @@ function cleanup_labels()
     // due to inconsistent handling of xstring in 2026 and 2023
     version=getversion();
     
-    if version=="scilab-2026.0.0" | version=="scilab-2026.0.1" then
+    if version=="scilab-2026.1.0" | version=="scilab-2026.0.1" then
         // disp("cleanup_labels: "+version);
         h_label=findobj("tag","labels");
         if  h_label <> [] then
@@ -28,7 +28,7 @@ function cleanup_labels()
         end
         
     else
-        messagebox("unsupported scilab version: use 2026.0.1 or 2023.1.0");
+        messagebox("unsupported scilab version: use 2026.1.0 or 2023.1.0");
     end
     
 endfunction
