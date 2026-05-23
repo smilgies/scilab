@@ -166,9 +166,9 @@ function plot_info=get_plot_info(plot_info);
         
         // note: version dependency of xstring fcn!
         version=getversion();
-        yr=evstr(part(version,8:11));
+        // yr=evstr(part(version,8:11))
         
-        if yr==2023 then
+        if version == "scilab-2023.1.0" then
             
             // direct beam scattering
             h_label=findobj("tag","labels");
@@ -192,7 +192,7 @@ function plot_info=get_plot_info(plot_info);
                 h_rlabel.data(:)=new_xpos;
             end
             
-        elseif yr>=2024 then
+        elseif version == "scilab-2026.1.0" | version == "scilab-2026.0.1" then
                         
             // direct beam scattering
             h_label=findobj("tag","labels");
@@ -216,7 +216,7 @@ function plot_info=get_plot_info(plot_info);
                 h_rlabel.children.data=new_xpos;
             end
         else
-            messagebox("unsupported scilab version")
+            messagebox("unsupported scilab version - use 2026-1.0 or 2023-1.0")
         end
 
         
