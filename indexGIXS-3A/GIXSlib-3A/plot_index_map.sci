@@ -63,7 +63,7 @@ function plot_info=plot_index_map(det_info,plot_info,plot_pars)
         version=getversion();
 
         // plot labels
-        if version=="scilab-2026.0.0" | version=="scilab-2026.0.1" then
+        if version=="scilab-2026.1.0" | version=="scilab-2026.0.1" then
             // disp("index: "+version);
             drawlater();
             h_label=xstring(x+xoff,z,hkl);
@@ -117,7 +117,7 @@ function plot_info=plot_index_map(det_info,plot_info,plot_pars)
             end
 
         else
-            messagebox("unsupported scilab version: use 2026.0.1 or 2023.1.0");
+            messagebox("unsupported scilab version: use 2026.1.0 or 2023.1.0");
         end
         
     else    
