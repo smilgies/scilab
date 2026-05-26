@@ -5,8 +5,8 @@ For further information and a program description please consult the following o
 "Probing Functional Thin Films with Grazing Incidence X-Ray Scattering: The Power of Indexing", Crystals 2025, 15, 63.   
 https://doi.org/10.3390/cryst15010063
 
-"indexGIXS – software for visualizing and interactive indexing of grazing-incidence scattering data", ChemRxiv 6/2025, Version 4.
-https://doi.org/10.26434/chemrxiv-2021-j1bww-v4
+"indexGIXS – software for visualizing and interactive indexing of grazing-incidence scattering data", J. Appl. Cryst. (2026). 59, 960–967.
+https://doi.org/10.1107/S1600576726002608
 
 Detailed strategies to find an indexation for the surface unit cell of low-symmetry molecular thin films are discussed in
 "Indexing 2D Powders and Lagrange-Gauss Reduction", Crystals 2026, 16, 43    https://doi.org/10.3390/cryst16010043
