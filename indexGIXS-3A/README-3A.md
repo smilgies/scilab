@@ -23,7 +23,8 @@ For low-symmetry structures such as molecular thin films, explore the reciprocal
   
 Happy indexing!
 
-In case you're interested: the example image "JC_WB_cubes_F_drying_hex_insitu_016.tif" shows a rhombohedral structure found for a superlattice formed by PbSe nanocubes. (See J.J. Choi et al., Nano Lett. 12, 4791–4798 (2012). https://doi.org/10.1021/nl3026289) 
+In case you're interested: the example image "Nanocube Superlattice.tif" shows a rhombohedral structure found for a superlattice with a (111) parallel plane, as formed by PbSe nanocubes. 
+(See J.J. Choi et al., Nano Lett. 12, 4791–4798 (2012). https://doi.org/10.1021/nl3026289) 
 
 =============================================================================
 
