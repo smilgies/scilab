@@ -4,7 +4,7 @@ How to get started:
 - Open the indexGIXS folder in the Scilab File Browser 
 - Open indexGIXS-3A.sce in the Scilab editor and execute via F5
 - Choose the medoptics detector in the detector pulldown menu
-- Load the image file; parameters are already preset; try the calc and the index buttons
+- Load the image file "Nanocube Superlattice.tif"; parameters are already preset; try the calc and the index buttons
 
 If you use indexGIXS for your work please cite:
 
@@ -14,7 +14,7 @@ If you use indexGIXS for your work please cite:
 Indexing strategies are discussed in:
 
    "Probing Functional Thin Films with Grazing Incidence X-Ray Scattering: The Power of Indexing"
-   Crystals 2025, 15, 63.   https://doi.org/10.3390/cryst15010063
+   Crystals 2025, 15, 63.    https://doi.org/10.3390/cryst15010063
 
 For low-symmetry structures such as molecular thin films, explore the reciprocal space mode:
 
