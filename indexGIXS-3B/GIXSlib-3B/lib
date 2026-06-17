@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<scilablib name="GIXSlib">
+  <macro name="calc_spots" file="calc_spots.bin" md5="28c80938691fa8a22430d3e11e556979"/>
+  <macro name="cleanup_labels" file="cleanup_labels.bin" md5="53b8eabd8db5501b7cc6def472d285fa"/>
+  <macro name="cleanup_plot" file="cleanup_plot.bin" md5="77873f6126c62ec8c04e9ad433a103f2"/>
+  <macro name="convert" file="convert.bin" md5="e6f1d114183f82646d3c2e55d4238a01"/>
+  <macro name="dfind" file="dfind.bin" md5="93b7e3da0f532fa0407e883d5fe63418"/>
+  <macro name="edit_spots" file="edit_spots.bin" md5="9915758a2def295fa3d0856e7db4ad15"/>
+  <macro name="find_hkl" file="find_hkl.bin" md5="72650f094b5788e9dc9afb99440f34d6"/>
+  <macro name="get_det" file="get_det.bin" md5="5a8a719818d38ad856db5217a718d9be"/>
+  <macro name="get_plot_info" file="get_plot_info.bin" md5="1b98410417fc6c36c5332f84ca1f7ab3"/>
+  <macro name="my_colorbar" file="my_colorbar.bin" md5="43efe16ccd366fe7464671522c510e8d"/>
+  <macro name="plot_ROI" file="plot_ROI.bin" md5="8b225d2ab205daae7ba53928c2d1e0aa"/>
+  <macro name="plot_index_map" file="plot_index_map.bin" md5="e911e3ffacdde381f19cb577f1cd43e7"/>
+  <macro name="plot_init" file="plot_init.bin" md5="ef059b3aa3f7075d2720827330c83bb3"/>
+  <macro name="plot_line" file="plot_line.bin" md5="5fdc7e78f4fb97496f9c02c42713e8c9"/>
+  <macro name="plot_mark" file="plot_mark.bin" md5="e5da8fccf8c6fa4e69cef169cd2fafd2"/>
+  <macro name="plot_scale" file="plot_scale.bin" md5="d34e2072c14a2eb04bb45ec5a4cf557a"/>
+  <macro name="plot_spots" file="plot_spots.bin" md5="8ad1a14fbccffde5caa9a9465741596f"/>
+  <macro name="read_Mat" file="read_Mat.bin" md5="1ebeba964ab3c839063518c01ec2ac21"/>
+  <macro name="read_edf_header" file="read_edf_header.bin" md5="6d5e8e5645cb884984582fa58e2425d2"/>
+  <macro name="read_image" file="read_image.bin" md5="41a6d7f99623db3d7b5301d1ecd7c566"/>
+  <macro name="real_lattice" file="real_lattice.bin" md5="570993516bd1bc40b518c79c95b033de"/>
+  <macro name="reciprocal_lattice" file="reciprocal_lattice.bin" md5="1668fd604feada89bafbe4571808c3cc"/>
+  <macro name="select_spot" file="select_spot.bin" md5="e0130d760752abaf0cab98ea958bd86f"/>
+  <macro name="set_det" file="set_det.bin" md5="20916b341af0c98f918995227397d93b"/>
+  <macro name="set_lattice" file="set_lattice.bin" md5="26e72da2a8da2f4dfb880638969a7c9e"/>
+  <macro name="set_sgel" file="set_sgel.bin" md5="31bdd32dca96266e604e7c80decc6663"/>
+</scilablib>
