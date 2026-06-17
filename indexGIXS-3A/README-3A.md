@@ -3,7 +3,7 @@
 # Version 3A will serve as a back-up and eventually be removed.
 
 
-## How to get started:
+### How to get started:
 
 - Download the indexGIXS folder to your computer
 - Open the indexGIXS folder in the Scilab File Browser 
@@ -26,7 +26,7 @@
    "Indexing 2D Powders and Lagrange–Gauss Reduction"
    Crystals 2026, 16, 43.     https://doi.org/10.3390/cryst16010043
   
-## Happy indexing!
+### Happy indexing!
 
 In case you're interested: the example image "Nanocube Superlattice.tif" shows a rhombohedral structure found for a superlattice with a (111) parallel plane, as formed by PbSe nanocubes. 
 (See J.J. Choi et al., Nano Lett. 12, 4791–4798 (2012). https://doi.org/10.1021/nl3026289) 
