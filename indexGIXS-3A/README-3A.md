@@ -1,3 +1,8 @@
+=============================================================================
+Note: Version indexGIXS-3B is available now and recommended
+Version 3A will serve as a back-up and eventually be removed.
+=============================================================================
+
 How to get started:
 
 - Download the indexGIXS folder to your computer
