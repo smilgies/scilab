@@ -1,16 +1,16 @@
-##How to get started:
+## How to get started:
 - Download the indexGIXS folder to your computer
 - Open the indexGIXS folder in the Scilab File Browser 
 - Open indexGIXS-3B.sce in the Scilab editor and execute via F5
 - Choose the medoptics detector in the detector pulldown menu
 - Load the image file; parameters are already preset; try the calc and the index buttons
   
-##Happy indexing!
+## Happy indexing!
 
 In case you're interested: the example image "Nanocube Superlattice.tif" shows a rhombohedral structure found for a superlattice formed by PbSe nanocubes. (See J.J. Choi et al., Nano Lett. 12, 4791–4798 (2012). https://doi.org/10.1021/nl3026289) 
 
 
-###A detailed description of the program can be found at
+### A detailed description of the program can be found at
 
 "indexGIXS – software for visualizing and interactive indexing of grazing-incidence scattering data", J. Appl. Cryst. 2026, 59, 960-967;
 https://doi.org/10.1107/S1600576726002608
@@ -18,7 +18,7 @@ https://doi.org/10.1107/S1600576726002608
 If you use indexGIXS for your research, please cite this paper.  
 
 
-###Application examples of indexGIXS can be found in open access journals:
+### Application examples of indexGIXS can be found in open access journals:
 
 "Probing Functional Thin Films with Grazing Incidence X-Ray Scattering: The Power of Indexing"
 Crystals 2025, 15, 63;   https://doi.org/10.3390/cryst15010063
