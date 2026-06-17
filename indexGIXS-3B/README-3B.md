@@ -12,7 +12,7 @@ In case you're interested: the example image "Nanocube Superlattice.tif" shows a
 
 A detailed description of the program can be found at
 
-"indexGIXS – software for visualizing and interactive indexing of grazing-incidence scattering data", J. Appl. Cryst. 2026, 59, 960-967.
+"indexGIXS – software for visualizing and interactive indexing of grazing-incidence scattering data", J. Appl. Cryst. 2026, 59, 960-967;
 https://doi.org/10.1107/S1600576726002608
 
 If you use indexGIXS for your research, please cite this paper.  
@@ -21,10 +21,10 @@ If you use indexGIXS for your research, please cite this paper.
 Application examples of indexGIXS can be found in open access journals:
 
 "Probing Functional Thin Films with Grazing Incidence X-Ray Scattering: The Power of Indexing"
-Crystals 2025, 15, 63.   https://doi.org/10.3390/cryst15010063
+Crystals 2025, 15, 63;   https://doi.org/10.3390/cryst15010063
 
 "Indexing 2D Powders and Lagrange–Gauss Reduction"
-Crystals 2026, 16, 43.   https://doi.org/10.3390/cryst16010043
+Crystals 2026, 16, 43;   https://doi.org/10.3390/cryst16010043
 
 
 
