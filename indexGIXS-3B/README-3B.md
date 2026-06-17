@@ -32,6 +32,6 @@ Crystals 2026, 16, 43.   https://doi.org/10.3390/cryst16010043
 
 Version History
 
-Version 3B fixes some minor issues in version 3A. In addition the code was cleaned up some more. 
+Version 3B fixes some minor issues in version 3A. In addition the code was cleaned up some more. I recommend recompiling the libraries using the scripts "generate_GIXSlib-3B.sce" and "generate_dlib-3A", in particular when switching to a different Scilab version.
 
 Version 3A is the first version of indexGIXS that was published on GitHub and contains extensions and code clean-up from the previous versions that were distributed via dropbox. 
