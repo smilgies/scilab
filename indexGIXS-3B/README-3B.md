@@ -18,7 +18,7 @@ https://doi.org/10.1107/S1600576726002608
 If you use indexGIXS for your research, please cite this paper.  
 
 
-### Application examples of indexGIXS can be found in open access journals:
+### Application examples of indexGIXS can be found in the open access journal Crystals
 
 "Probing Functional Thin Films with Grazing Incidence X-Ray Scattering: The Power of Indexing"
 Crystals 2025, 15, 63;   https://doi.org/10.3390/cryst15010063
