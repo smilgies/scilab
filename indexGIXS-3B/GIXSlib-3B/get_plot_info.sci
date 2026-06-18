@@ -204,7 +204,7 @@ function plot_info=get_plot_info(plot_info);
             if h_label~=[] then
                 h_label.children.font_style=fontstyle;
                 h_label.children.font_size=fontsize;
-                h_label.children.font_foreground=foncolor;
+                h_label.children.font_foreground=fontcolor;
                 // retrieve old label positions (x,z))
                 old_pos=h_label.children.data
                 new_xpos=[old_pos(:,1)-old_offset+new_offset, old_pos(:,2)];
