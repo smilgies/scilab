@@ -20,10 +20,10 @@ If you use indexGIXS for your research, please cite this paper.
 
 ### Application examples of indexGIXS can be found in the open access journal Crystals
 
-"Probing Functional Thin Films with Grazing Incidence X-Ray Scattering: The Power of Indexing"
+"Probing Functional Thin Films with Grazing Incidence X-Ray Scattering: The Power of Indexing",
 Crystals 2025, 15, 63;   https://doi.org/10.3390/cryst15010063
 
-"Indexing 2D Powders and Lagrange–Gauss Reduction"
+"Indexing 2D Powders and Lagrange–Gauss Reduction",
 Crystals 2026, 16, 43;   https://doi.org/10.3390/cryst16010043
 
 
