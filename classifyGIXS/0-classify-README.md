@@ -6,7 +6,7 @@ This appoach is further refined in a two-part paper for triclinic and monoclinic
 
 "Classification of 2D-GIWAXS Images of Highly Textured Molecular Thin Films towards Indexation: Triclinic Lattices".
 
-Here the methodology introduced in the first paper is further developed and special cases are included. In a second part it is shown how standard crystallographic procedures can be used to bring the unit cell into its normalized form and possibly apply further reduction to obtain a unique descriptor of the found polymorph. As an application this approach is demonstrated on a sample data set in detail. 
+Here the methodology introduced in the first paper is further developed and special cases are included. In a second part it is shown how standard crystallographic procedures can be used to bring the unit cell into its normalized form and possibly apply further reduction to obtain a unique descriptor of the found polymorph. As an application this approach is demonstrated on a sample data set in detail. Use scripts in oder, as implied by the filename, i.e. start with 1-classify-tri to find the inplane lattice, then refine the lattice with 2-refine-qpar etc. A sample data set is provided and processed, if scripts are run in the original form. Replace the input data with your own.
 
 It is very useful to combine the scripts with software for viewing of data and calculated spot positions which is also found in this repository:
 
