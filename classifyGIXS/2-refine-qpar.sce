@@ -130,11 +130,11 @@ M = [h.^2, k.^2, h.*k];
 C = qex.^2;
 
 // matrices for normal equation solving the LSQ fit
-M2 = M'*M;
-C2 = M'*C;
+MTM = M'*M;
+MTC = M'*C;
 
 // solution of normal equation
-XYZ = inv(M2)*C2;
+XYZ = inv(MTM)*MTC;
 
 // solution components: best 2D reciprocal surface unit cell
 X = XYZ(1);
