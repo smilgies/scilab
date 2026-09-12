@@ -1,7 +1,11 @@
 ////////////////////////////////////////////////////////////////////
 // refine qperp
 
-
+// for ZnPc example
+// initial values for asperp, bsperp, csperp were determined with indexGIXS
+//   based on the (10l) and (01l) scattering rods
+// l-values of spots were determined with indexGIXS
+//
 // input format:
 // reflection list hkl: h k l qperp qpar
 // select well-defined reflections for each rod
@@ -82,10 +86,10 @@ disp([h k l qzc0 qz dev0]);
 M = [h k l];
 C = qz;
 
-// solve normal equation M2 * XYZ = C2
-M2 = M' * M;
-C2 = M' * C;
-XYZ = inv(M2) * C2;
+// solve normal equation MTM * XYZ = MTC
+MTM = M' * M;
+MTC = M' * C;
+XYZ = inv(MTM) * MTC;
 
 // components
 asperp = round(XYZ(1)*1000)/1000;
@@ -101,10 +105,3 @@ dev = qzc - qz;
 devtot = sqrt(sum(dev.^2)/length(dev));
 disp("LSQ refined lattice params");
 disp([asperp bsperp csperp devtot]);
-
-
-
-
-
-
-
