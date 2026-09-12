@@ -14,7 +14,7 @@ qexp=[4.65;6.1;7.1;9.3;9.8;11.0;12.1;14.0;15.4;17.9;18.2;18.5;18.7;19.5;19.9;21.
 // number of experimental q-values
 nq = length(qexp);
 
-// successful assignment
+// successful assignment (modify for your own case)
 as = qexp(1);
 bs = qexp(1);
 ds = qexp(2);
@@ -58,7 +58,9 @@ mq = length(qcalc);
 // - tol=0.1 is too narrow, tol=0.15 is just right, tol=0.2 is too wide
 tol = 0.15;
 
+//
 // LOOP: matching qcalc with qexp
+//
 match = [];      // matrix of matched [h k qcalc qexp]
 nomatch = 0;     // number of unmatched qexp
 
@@ -76,11 +78,12 @@ for iq=1:nq
     end
 end
 
-///////////////////////////////////////////////////////
-// interactive finetuning: eliminate double assignments
+//////////////////////////////////////////////////////////////////
+// interactive finetuning: eliminate double assignments of h and k
 
 header = "tol="+string(tol)+"   finetune assignments; no match: "+string(nomatch);
 nbeg = size(match,"r");
+// invoke matrix editor: delete lines with double assignments of h,k
 match = x_matrix(header,match);
 nend = size(match,"r");
 corrections = nbeg - nend;
@@ -100,7 +103,7 @@ qex = match(:,4);
 dev = norm(qca-qex)/nend;
 dev = round(dev*1000)/1000;
 
-// output using table fcn
+// output using table fcn (scilab-2026.1.0)
 varnames = ["aspar" "bspar" "gamspar" "dev" "tol" "no match" "corrected"];
 varvalue = [as,bs,gamsdeg,dev,tol,nomatch,corrections];
 version = getversion();
@@ -114,9 +117,6 @@ elseif version=="scilab-2026.1.0" then
 else
     disp("unsupported scilab version: use 2023.1.0 or 2026.1.0");
 end
-
-//////////////     end optimization     //////////////
-
 
 //////////////////////////////////////////////////////
 // least-mean-square (LSQ) fit
@@ -155,6 +155,9 @@ qfit = sqrt((h*asopt).^2 + (k*bsopt).^2 + 2*h.*k*asopt*bsopt*cos(gamsopt));
 dev = norm(qfit-qex)/nend;
 dev = round(dev*1000)/1000;
 
+//////////////     end optimization     //////////////////////
+
+
 //////////////////////////////////////////////////////////////
 // output
 
@@ -172,7 +175,8 @@ else
 end
 
 ///////////////////////////////////////////////////////////////
-// sample results for scilab-2026.1.0
+// sample results for different tolerances
+// for scilab-2026.1.0
 
 // tolerance 0.15 just right: all qexp matched, few corrections
 //  ""
