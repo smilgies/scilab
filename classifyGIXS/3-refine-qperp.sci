@@ -5,6 +5,7 @@
 // initial values for asperp, bsperp, csperp were determined with indexGIXS
 //   based on the (10l) and (01l) scattering rods
 // l-values of spots were determined with indexGIXS
+// see https://doi.org/10.3390/cryst16090584 for details
 //
 // input format:
 // reflection list hkl: h k l qperp qpar
