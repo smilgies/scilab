@@ -1,5 +1,11 @@
 // classify 2D
-// part I: no forbidden or unobserved rods
+//
+// Find the in-plane 2D lattice
+// For a description see https://doi.org/10.3390/cryst16090584
+//
+// Input: the sorted parallel components of the scattering vectors of all observed scattering rods
+//
+// considered cases: no forbidden or unobserved rods
 //         hexagonal
 //         rhombic/square
 //         oblique/rectangular
@@ -8,9 +14,10 @@
 
 // Example: ZnPc vapor deposition on graphene (JACS )
 qlist=[4.65;6.1;7.1;9.3;9.8;11.0;12.1;14.0;15.4;17.9;18.2;18.5;18.7;19.5;19.9;21.2;21.5];
+// replace q-values with your own list
 
 ///////////////////////////////////////////////////////////////////////
-// calcdev: calculate deviation
+// calcdev: calculate deviation from the observed q-values
 // - for each qi find nearest qhk
 // - sum up deviations
 
@@ -25,6 +32,7 @@ function dev=calcdev(a,b,gam,qlist,flag,num)
             qhk(n)=sqrt(h*h*a*a+k*k*b*b+2*h*k*a*b*cos(gam));
         end
     end
+    // sort qhk values by length
     qhk=gsort(qhk,"g","i");
     // remove doubles and zero
     qhk=qhk(2:2:$);
@@ -73,7 +81,10 @@ endfunction
 // MAIN
 //
 
+//
 // for graphics output
+//
+
 fig=scf(3);
 fig.tag="plot";
 ax=gca();
@@ -177,8 +188,10 @@ reslist=[reslist;a,b,gam,lim,dev];
 // there are always 4 cases to be checked
 ncase=4;
 
+//
+// checking for multiples of a < d up to n=5
+//
 
-// checking for multiples of a < b up to n=5
 for n=2:5
     if qlist(n)==n*qlist(1) then
         disp("warning: multiples of a detected: n = "+string(n));
@@ -270,7 +283,3 @@ ax.tight_limits = "on";
 ax.data_bounds = [qmin,0; qmax,ncase+1];
 xlabel("q (1/nm)","font_size",4);
 ylabel("case","font_size",4);
-
-
-
-
