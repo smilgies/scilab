@@ -18,13 +18,18 @@ https://doi.org/10.1107/S1600576726002608
 If you use indexGIXS for your research, please cite this paper.  
 
 
-### Application examples of indexGIXS can be found in the open access journal Crystals
+### Application examples of indexGIXS can be found at
 
 "Probing Functional Thin Films with Grazing Incidence X-Ray Scattering: The Power of Indexing",
 Crystals 2025, 15, 63;   https://doi.org/10.3390/cryst15010063
 
+"GISAXS: a Versatile Tool to Assess Structure and Self-assembly Kinetics in Block Copolymer Thin Films", 
+J. Polym. Sci. 2022, 60, 1023-1041.  https://doi.org/10.1002/pol.20210244
+
+### Indexing methods for low-symmetry samples are discussed in the open access journal Crystals
+
 "Indexing 2D Powders and Lagrange–Gauss Reduction",
-Crystals 2026, 16, 43;   https://doi.org/10.3390/cryst16010043
+Crystals 2026, 16, 43.   https://doi.org/10.3390/cryst16010043
 
 "Classification of 2D-GIWAXS Images of Highly Textured Molecular Thin Films towards Indexation: Triclinic Lattices", 
 Crystals 2026, 16, 584; https://doi.org/10.3390/cryst16090584
