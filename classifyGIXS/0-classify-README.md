@@ -2,12 +2,13 @@ The folder classifyGIXS contains a number of scripts for structure determination
 
 "Indexing 2D Powders and Lagrange-Gauss Reduction", Crystals 2026, 16, 43; https://doi.org/10.3390/cryst16010043.
 
-This approach was further refined in a two-part paper for triclinic and monoclinic structures. The first part has been published in MDPI journal Crystals:
+This approach is further refined in a two-part paper for triclinic and monoclinic structures. The first part has been published in MDPI journal Crystals:
+
 "Classification of 2D-GIWAXS Images of Highly Textured Molecular Thin Films towards Indexation: Triclinic Lattices", Crystals 2026, 16, 584;   https://doi.org/10.3390/cryst16090584
 
-Here the methodology introduced in the first paper is further developed and special cases are included. In a second part it is shown how standard crystallographic procedures can be used to bring the unit cell into its normalized form and possibly apply further reduction to obtain a unique descriptor of the found polymorph. As an application this approach is demonstrated on a sample data set in detail. 
+Here the methodology introduced in the first paper is further developed and special cases are included. In a new part it is shown how standard crystallographic procedures can be used to bring the unit cell into its normalized form and possibly apply further reduction to obtain a unique descriptor of the observed polymorph. As an application this approach is demonstrated on a sample data set in detail. 
 
-Recommendation: Use scripts in order, as implied by the filename, i.e. start with 1-classify-tri to find the inplane lattice, then refine the lattice with 2-refine-qpar etc. A sample data set is provided and processed, if scripts are run in the original form. Then you can replace the input data with your own. In addition the original GISAXS image used in this study is provided. The matrix format (extension mtx) is specific to the indexGIXS program. This format is used for the merged original data files, in order to fill in the blind strip between active panels in the Pilatus 200k detector. 
+Recommendation: Use scripts in order, as implied by the filename, i.e. start with 1-classify-tri to find the inplane lattice, then refine the lattice with 2-refine-qpar etc. A sample data set is provided and processed, if scripts are run in the original form. For your samples, you should replace the input data at the head of the script with your own. In addition the original GISAXS image used in this study is provided. The matrix format (extension mtx) is specific to the indexGIXS program. This format is used for the merged original data files, in order to fill in the blind strip between active panels in the Pilatus 200k detector. 
 
 In general it is very useful to combine the scripts with software for viewing of data and calculated spot positions. My indexGIXS program is also found in this repository (scilab/indexGIXS-3B). A detailed description can be found in the open access paper:
 
