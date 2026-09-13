@@ -9,7 +9,7 @@ Here the methodology introduced in the first paper is further developed and spec
 
 Recommendation: Use scripts in order, as implied by the filename, i.e. start with 1-classify-tri to find the inplane lattice, then refine the lattice with 2-refine-qpar etc. A sample data set is provided and processed, if scripts are run in the original form. Then you can replace the input data with your own. In addition the original GISAXS image used in this study is provided. The matrix format (extension mtx) is specific to the indexGIXS program. This format is used for the merged original data files, in order to fill in the blind strip between active panels in the Pilatus 200k detector. 
 
-In general it is very useful to combine the scripts with software for viewing of data and calculated spot positions. My indexGIXS program is also found in the scilab folder of this repository (../indexGIXS-3B):
+In general it is very useful to combine the scripts with software for viewing of data and calculated spot positions. My indexGIXS program is also found in this repository (scilab/indexGIXS-3B). A detailed description can be found in the open access paper:
 
 "indexGIXS – software for visualizing and interactive indexing of grazing-incidence scattering data", J. Appl. Cryst. (2026). 59, 960–967; https://doi.org/10.1107/S1600576726002608
 
@@ -18,3 +18,4 @@ For an overview of grazing-incidence x-ray scattering and the importance of inde
 "Probing Functional Thin Films with Grazing Incidence X-Ray Scattering: The Power of Indexing", Crystals 2025, 15, 63; https://doi.org/10.3390/cryst15010063
 
 If you use some of the scripts in the classifyGIXS folder or indexGIXS for your research, please cite the corresponding papers.
+In case of questions or comments, you can contact me at dsmilgie@binghamton.edu.
