@@ -26,7 +26,7 @@ Crystals 2025, 15, 63;   https://doi.org/10.3390/cryst15010063
 "GISAXS: a Versatile Tool to Assess Structure and Self-assembly Kinetics in Block Copolymer Thin Films", 
 J. Polym. Sci. 2022, 60, 1023-1041.  https://doi.org/10.1002/pol.20210244
 
-### Indexing methods for low-symmetry samples are discussed in the open access journal Crystals
+### Indexing methods for low-symmetry structures are discussed in the open access journal Crystals
 
 "Indexing 2D Powders and Lagrange–Gauss Reduction",
 Crystals 2026, 16, 43.   https://doi.org/10.3390/cryst16010043
