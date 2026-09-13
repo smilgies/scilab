@@ -26,6 +26,9 @@ Crystals 2025, 15, 63;   https://doi.org/10.3390/cryst15010063
 "Indexing 2D Powders and Lagrange–Gauss Reduction",
 Crystals 2026, 16, 43;   https://doi.org/10.3390/cryst16010043
 
+"Classification of 2D-GIWAXS Images of Highly Textured Molecular Thin Films towards Indexation: Triclinic Lattices", 
+Crystals 2026, 16, 584; https://doi.org/10.3390/cryst16090584
+
 
 
 =============================================================================
