@@ -2,6 +2,6 @@ Never say never! Fooling around with my little Raspberry Pi 5 with only 2 GB RAM
 
 Conclusion: Python code has amazing performance, even on this limited hardware. But coming from the Matlab/Scilab world, the actual coding is mostly a mystery to me... But that's what friends are for...
 
-Long story short, in the course of the day I kept adding bits and pieces. Maybe not yet the most beautiful GUI, but getting there. And full indexGIXS-3 capabilities. Here some first examples, and whenever I can continue, some more finetuning. The image indexGIXS-2.png shows a screenshot.
+Long story short, in the course of the day I kept adding bits and pieces. The GUI is getting there. And full indexGIXS-3 capabilities. Here some first examples, and whenever I can continue, some more finetuning. The image indexGIXS.png shows a screenshot. The parameters in the indexGIXS.py GUI are predefined to process the TIFF example file. Just Load the image and Calc the spot positions.
 
-Other than that, the functionality is very similar to indexGIXS-3, check out the documentation there. The detector menu was not needed, so far all TIFF formats are supported by PIL. Berkeley GB files can just be renamed as TIFF. Remains to be seen what to do about EDF. But so far so good!
+Other than that, the functionality is very similar to indexGIXS-3, check out the documentation there. The detector menu was not needed, so far all TIFF formats are supported by PIL. Berkeley GB files can just be renamed as TIFF. Some obsolete detectors aren't supported any more. Remains to be seen what to do about the EDF format. But so far so good!
