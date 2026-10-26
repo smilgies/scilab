@@ -104,7 +104,7 @@ function [mat,det_info]=read_image(det_info)  //plot-area
                 nbytes=npix*nlines;
                 if fmt=="f" then
                     x=mget(nbytes,"f",fd);       // TIFF,GB with float
-                    x=int16(x);
+                    x=int32(x);
                 else
                     x=mgeti(nbytes,fmt,fd);      // TIFF with integer types
                 end
