@@ -1,6 +1,6 @@
 # indexGIXS-3C
 
-# How to get started:
+### How to get started:
 - Download the indexGIXS folder to your computer
 - Open the indexGIXS folder in the Scilab File Browser
 - Open indexGIXS-3A.sce in the Scilab editor and execute via F5
