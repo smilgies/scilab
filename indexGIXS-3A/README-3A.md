@@ -1,6 +1,6 @@
 
-# Note: Version indexGIXS-3B is available now and recommended
-# Version 3A will serve as a back-up and will eventually be removed.
+# Note: Version indexGIXS-3C for Scilab-2027.0.0 is available now and recommended
+# Version 3B will serve as a back-up; Version 3A code will eventually be removed.
 
 
 ### How to get started:
