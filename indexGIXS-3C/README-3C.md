@@ -1,11 +1,12 @@
 # indexGIXS-3C
 
 # How to get started:
-Download the indexGIXS folder to your computer
-Open the indexGIXS folder in the Scilab File Browser
-Open indexGIXS-3A.sce in the Scilab editor and execute via F5
-Choose the medoptics detector in the detector pulldown menu
-Load the image file "Nanocube Superlattice.tif"; parameters are already preset; try the calc and the index buttons
+- Download the indexGIXS folder to your computer
+- Open the indexGIXS folder in the Scilab File Browser
+- Open indexGIXS-3A.sce in the Scilab editor and execute via F5
+- Choose the "medoptics" detector in the detector pulldown menu
+- Load the image file "Nanocube Superlattice.tif"; parameters are already preset; try the calc and the index buttons
+
 If you use indexGIXS for your work please cite:
 "indexGIXS: software for visualizing and interactive indexing of grazing-incidence scattering data" D.-M. Smilgies and R. Li, J. Appl. Cryst. (2026). 59, 960–967. https://doi.org/10.1107/S1600576726002608
 
