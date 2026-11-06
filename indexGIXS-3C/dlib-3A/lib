@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<scilablib name="dlib">
+  <macro name="decode_color" file="decode_color.bin" md5="87e2c4b77c82332dd3ede8cdf226c02b"/>
+  <macro name="decode_line" file="decode_line.bin" md5="26cf489ab97eec2a661fb72290cbff3e"/>
+  <macro name="decode_symbol" file="decode_symbol.bin" md5="3e5622f8b097e436bebc01466b739b05"/>
+  <macro name="decode_text" file="decode_text.bin" md5="ccd405def575f2e1fe332bfa3a1ff605"/>
+  <macro name="get_gui_item" file="get_gui_item.bin" md5="4e80e2bc18c0722a9094932668d22a4a"/>
+  <macro name="get_gui_menu" file="get_gui_menu.bin" md5="2182c503a219e0e8fb67fd240bb28e25"/>
+  <macro name="get_gui_txt" file="get_gui_txt.bin" md5="4b25429e35bb8dbe6f5ee5a10b27cd7e"/>
+  <macro name="get_gui_val" file="get_gui_val.bin" md5="af576380b7d9613722b1bea05ca5609a"/>
+  <macro name="linlin" file="linlin.bin" md5="826c3332bc98ab136cf735c425f31497"/>
+  <macro name="linlinlin" file="linlinlin.bin" md5="38d442ada848970f39d93fed0826825d"/>
+  <macro name="linlinlog" file="linlinlog.bin" md5="083ea0ff702c99dbea379e5bbca3bee5"/>
+  <macro name="linlog" file="linlog.bin" md5="994e6d6b89d017a168b5a40b6f3a0bc2"/>
+  <macro name="loglin" file="loglin.bin" md5="29be7f461c3716c516e0f1b3c495ad63"/>
+  <macro name="loglog" file="loglog.bin" md5="b63ed707ba22ef5357afa559a8114adb"/>
+  <macro name="radio_group" file="radio_group.bin" md5="380d58aa799eacda119aa7a970d00b23"/>
+  <macro name="scalarprod" file="scalarprod.bin" md5="e02407245c6ac74941a1f16ba2d3969a"/>
+  <macro name="set_gui_menu" file="set_gui_menu.bin" md5="32701109590319aea41a1f44004c7a7b"/>
+  <macro name="set_gui_txt" file="set_gui_txt.bin" md5="8e8850fc1926b6fafcac0f75530c210b"/>
+  <macro name="set_gui_val" file="set_gui_val.bin" md5="fc5f123ff51b919663d5e72b8c202384"/>
+  <macro name="sort_by_col" file="sort_by_col.bin" md5="3236a4821be4bad64a1690931f1c1f33"/>
+  <macro name="sort_by_row" file="sort_by_row.bin" md5="169900ffc7acbce85cbcba0b73404603"/>
+  <macro name="vangle" file="vangle.bin" md5="3837ceca2913c47dfa8105eab2ddd4b7"/>
+  <macro name="vectorprod" file="vectorprod.bin" md5="189169d2241857ca0a7fd87ed5252777"/>
+</scilablib>
