@@ -1,9 +1,10 @@
 # indexGIXS-3C
+Version 3C with scilab-2027.0.0 finally overcomes the issue with running the software under MS Windows 11 Enterprise!
 
 ### How to get started:
 - Download the indexGIXS folder to your computer
 - Open the indexGIXS folder in the Scilab File Browser
-- Open indexGIXS-3A.sce in the Scilab editor and execute via F5
+- Open indexGIXS-3C.sce in the Scilab editor and execute via F5
 - Choose the "medoptics" detector in the detector pulldown menu
 - Load the image file "Nanocube Superlattice.tif"; parameters are already preset; try the calc and the index buttons
 
@@ -21,6 +22,8 @@ In case you're interested: the example image "Nanocube Superlattice.tif" shows a
 
 ### Notes
 Version 3C with scilab-2027.0.0 finally overcomes the issue with running the software under MS Windows 11 Enterprise!
+
+If there are errors with regard to the libraries, please recompile the libraries using the scripts "generate_GIXSlib-3C.sce" and "generate_dlib-3A.sce": Open the scripts in the Scilab editor and run them using F5. 
 
 The problem with the program crashing under scilab-2026.1.0 and Win 11 Enterprise remains, though, and these versions won't be supported any more in the future. scilab-2023.1.0 still runs version 3C but will be eventually deprecated in the future, so that inconsistencies between the 2023 and 2027 versions no longer clutter up the code.
 
