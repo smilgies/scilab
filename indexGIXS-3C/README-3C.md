@@ -22,7 +22,7 @@ If you use indexGIXS for your work please cite:
 ### Happy indexing!
 In case you're interested: the example image "Nanocube Superlattice.tif" shows a rhombohedral structure found for a superlattice with a (111) parallel plane, as formed by PbSe nanocubes. (See J.J. Choi et al., Nano Lett. 12, 4791–4798 (2012). https://doi.org/10.1021/nl3026289)
 
-### Notes
+### Notes and Trouble Shooting
 Version 3C with scilab-2027.0.0 finally overcomes the issue with running the software under MS Windows 11 Enterprise!
 
 If there are errors on starting indexGIXS-3C, please recompile the libraries using the scripts "generate_GIXSlib-3C.sce" and "generate_dlib-3A.sce": Open the scripts in the Scilab editor and run the scripts using F5. If problems persist, please contact me at dsmilgie@binghamton.edu and send me screenshots of the Scilab IDE and the indexGIXS graphics window.
