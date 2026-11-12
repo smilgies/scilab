@@ -9,6 +9,7 @@ Version 3C with scilab-2027.0.0 finally overcomes the issue with running the sof
 - Load the image file "Nanocube Superlattice.tif"; parameters are already preset; try the calc and the index buttons
 
 You should get an output as shown in "view-indexGIXS-menu.png". Try the zoom-in and pan feature of the graphics using the mouse wheel and dragging, respectively.
+In case of an error, please recompile the libraries: Open generate_dlib-3A and generate_GIXSlib-3C in the Scilab file browser and execute them with F5. If this doesn't resolve the problem, please contact me at dsmilgie@binghamton.edu
 
 If you use indexGIXS for your work please cite:
 "indexGIXS: software for visualizing and interactive indexing of grazing-incidence scattering data" D.-M. Smilgies and R. Li, J. Appl. Cryst. (2026). 59, 960–967. https://doi.org/10.1107/S1600576726002608
