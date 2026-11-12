@@ -36,15 +36,15 @@ function hkl_allowed=find_hkl(sg_info)
     case "C"
         rule = pmodulo(h+k,2)==0;
         // dfind allowed reflections
-        index=dfind(rule)
+        index=dfind(rule);
     case "A"
         rule = pmodulo(k+l,2)==0;
         // dfind allowed reflections
-        index=dfind(rule)
+        index=dfind(rule);
     case "B"
         rule = pmodulo(l+h,2)==0;
         // dfind allowed reflections
-        index=dfind(rule)
+        index=dfind(rule);
     case "F"
         r1 = pmodulo(h+k,2)==0;
         r2 = pmodulo(k+l,2)==0;
@@ -52,18 +52,18 @@ function hkl_allowed=find_hkl(sg_info)
         // element-wise and operator
         rule = r1 & r2 & r3
         // dfind allowed reflections
-        index=dfind(rule)
+        index=dfind(rule);
     case "I"
         rule = pmodulo(h+k+l,2)==0;
         // dfind allowed reflections
         index=dfind(rule)
     case "sc"
         // all indices allowed
-        index=[1:Nmax]'
+        index=[1:Nmax]';
     case "bcc"
         rule = pmodulo(h+k+l,2)==0;
         // dfind allowed reflections
-        index=dfind(rule)
+        index=dfind(rule);
     case "fcc"
         r1 = pmodulo(h+k,2)==0;
         r2 = pmodulo(k+l,2)==0;
@@ -71,13 +71,13 @@ function hkl_allowed=find_hkl(sg_info)
         // element-wise and operator
         rule = r1 & r2 & r3
         // dfind allowed reflections
-        index=dfind(rule)
+        index=dfind(rule);
     case "hcp"
         r1 = pmodulo(h+2*k,3)==0;
         r2 = pmodulo(l,2)==1;
         rule= ~(r1 & r2)
         // dfind allowed reflections
-        index = dfind(rule)
+        index = dfind(rule);
     case "dia"
         r1 = pmodulo(h+k,2)==0;
         r2 = pmodulo(k+l,2)==0;
@@ -91,16 +91,16 @@ function hkl_allowed=find_hkl(sg_info)
         index = dfind(rule);
     case "sgl gyr"
         rule = sg214(h,k,l);
-        index=dfind(rule)
+        index=dfind(rule);
     case "dbl gyr"
         rule = sg230(h,k,l);
-        index=dfind(rule)
+        index=dfind(rule);
     case "cyl"
-        index = 1:Nmax
+        index = [1:Nmax]';
     case "lam"
-        index = 1:Nmax
+        index = [1:Nmax]';
     else
-        messagebox("error: unknown index rule")
+        messagebox("error: unknown index rule");
     end
 
 
