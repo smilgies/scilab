@@ -23,10 +23,8 @@ If you use indexGIXS for your work please cite:
 In case you're interested: the example image "Nanocube Superlattice.tif" shows a rhombohedral structure found for a superlattice with a (111) parallel plane, as formed by PbSe nanocubes. (See J.J. Choi et al., Nano Lett. 12, 4791–4798 (2012). https://doi.org/10.1021/nl3026289)
 
 ### Notes and Trouble Shooting
-Version 3C with scilab-2027.0.0 finally overcomes the issue with running the software under MS Windows 11 Enterprise!
+Version 3C with scilab-2027.0.0 finally overcomes the issue with running the software under MS Windows 11 Enterprise! Some tweaks and fixes to the GUI builder were helpful to get the program to load more efficiently. The simulation mode for generating GIXS patterns without prior loading of an image is now explicitly supported as a new detector option "simulate". Parameters are preset to reproduce the images in Figure 4 of the "Power of Indexing" paper. 
 
 If there are errors on starting indexGIXS-3C, please recompile the libraries using the scripts "generate_GIXSlib-3C.sce" and "generate_dlib-3A.sce": Open the scripts in the Scilab editor and run the scripts using F5. If problems persist, please contact me at dsmilgie@binghamton.edu and send me screenshots of the Scilab IDE and the indexGIXS graphics window.
 
 The problem with the program crashing under scilab-2026.1.0 and Win 11 Enterprise remains, though, and the 2026 versions won't be supported any more in the future. scilab-2023.1.0 still runs version 3C but will be eventually deprecated, so that inconsistencies between the 2023 and 2027 versions no longer clutter up the code.
-
-Some tweaks and fixes to the GUI builder were helpful to get the program to load more efficiently. The simulation mode for generating GIXS patterns without prior loading of an image is now explicitly supported as a new detector option "simulate". Parameters are preset to reproduce the images in Figure 4 of the "Power of Indexing" paper. 
