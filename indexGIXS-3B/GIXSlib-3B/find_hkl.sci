@@ -39,7 +39,7 @@ function hkl_allowed=find_hkl(sg_info)
     select index_rule
     case "P"
         // all indices allowed
-        rule = ones([1:Nmax])==1;
+        rule = ones(Nmax,1)==1;
     case "C"
         rule = pmodulo(h+k,2)==0;
     case "A"
@@ -56,7 +56,7 @@ function hkl_allowed=find_hkl(sg_info)
         rule = pmodulo(h+k+l,2)==0;
     case "sc"
         // all indices allowed
-        rule = ones([1:Nmax])==1;
+        rule = ones(Nmax,1)==1;
     case "bcc"
         rule = pmodulo(h+k+l,2)==0;
     case "fcc"
@@ -83,9 +83,9 @@ function hkl_allowed=find_hkl(sg_info)
     case "dbl gyr"
         rule = sg230(h,k,l);
     case "cyl"
-        rule = ones([1:Nmax])==1;
+        rule = ones(Nmax,1)==1;
     case "lam"
-        rule = ones([1:Nmax])==1;
+        rule = ones(Nmax,1)==1;
     else
         messagebox("error: unknown index rule")
     end
@@ -180,7 +180,7 @@ function hkl_allowed=find_hkl(sg_info)
         index = dfind(rule);
     end
 
-    // return only allowed hkl as listed in index
-    hkl_allowed=hkl(index,:);
+    // return only allowed hkl as listed by index
+    hkl_allowed = hkl(index,:);
 
 endfunction
